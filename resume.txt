@@ -21,7 +21,7 @@ Software Development Tech Lead at Tablet Inc			  2011/07 - Present
 - Research caching solution for the availability search service
 - RESTful API with JSON as a response payload
 - changing monolithic application into SOA 
-- release and on-call duties
+- release (ansible) and on-call duties
 - help with devops tasks. Review system changes
 
 Tablet., Inc. (www.tablethotels.com)
