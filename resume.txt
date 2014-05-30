@@ -11,7 +11,7 @@ Linux/FreeBSD, filesystems, python, perl, shell, qmail, djbdns, Oracle/MySQL, C,
 Experience:
 
 Tablet., Inc. (www.tablethotels.com)
-Software Development Team Lead at Tablet Inc			  2011/07 - Present
+Software Development Tech Lead at Tablet Inc			  2011/07 - Present
 
 - Overall system design. Pushed for share nothing architecture.
 - API (OAuth, SOAP). Partner integration
@@ -134,5 +134,5 @@ Computer Science, 1997 - 1999
 The Chubb Institute of Technology
 Computer Programming, 1996 - 1997
 
-Санкт-Петербургский Государственный Политехнический Университет
+St.Peterburg State Polytechnic University, Russia
 Engineering. Machine building, 1994 – 1995

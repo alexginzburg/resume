@@ -1,81 +1,76 @@
-Alexander Ginzburg alex@eightbits.com
+Alexander Ginzburg	alex@eightbits.com	646.397.0597
 
 Summary:
-Software development in the Unix environment. Enjoy troubleshooting problems, learning new technologies.
-Latest aspirations: VOIP (Asterisk), openwrt, MQ (RabbitMQ, zeroMQ)
+Software development in the Unix environment.
+Obsessed with HA, simplicity, performance. Enjoy troubleshooting problems, learning new technologies.
+Latest interests: Haskell, multicast, distributed file systems( free time project http://dprfs.eightbits.com ).
 
 Specialties:
-Linux, shell, qmail, djbdns, Oracle, C, Asterisk (IAX, SIP), openwrt, mail protocols, high availability
+Linux/FreeBSD, filesystems, python, perl, shell, qmail, djbdns, Oracle/MySQL, C, high availability, KISS
 
 Experience:
 
-Tablet Inc.
-Software Development Team Lead at Tablet Inc			  2011/07 - Present
+Tablet., Inc. (www.tablethotels.com)
+Software Development Tech Lead at Tablet Inc			  2011/07 - Present
 
+- Overall system design. Pushed for share nothing architecture.
+- API (OAuth, SOAP). Partner integration
+  accepts inventory updates from channel managers and CRSs
+- Filesystem based queues for async processing
+- MySQL DB optimization
+- Research caching solution for the availability search service
+- RESTful API with JSON as a response payload
+- changing monolithic application into SOA 
+- release and on-call duties
+- help with devops tasks. Review system changes
+
+Tablet., Inc. (www.tablethotels.com)
 Software Infrastructure Engineer at Tablet Inc			  2010/12 - 2011/08
 
-Helping to scale the application - in some case fork() is better than threading.
+- Unleashed the python web application from the threading hell (GIL).
+- Cleaned up the spawn-fcgi (https://github.com/alexginzburg/spawn-fcgi) to actually managed spawned processes. 
+- Filesystem based queue for file distribution
+- Helped with the fork() implementation of the availability search service
+- Helped with migration to git. Wrote development workflow documentation.
 
 
 Proclivity Systems
 Software Infrastructure Team Lead at Proclivity Systems		  2010/02 - 2010/12
 
-Was brought into the company to spread the admiration for the simple processes. Helped developers to design
-programs following Unix philosophy – simple blocks when put together result in the complex architecture;
-don't over-engineer, take full advantage of the filesystem semantics – permissions, inodes, caching, etc.
-- Lead a team of developers responsible for the ETL processes. Enforced better handling of the ETL
-processes. The goal is to build a “self-healing”, idempotent system.
-- Coach people to respect machine resources. Java developers learned how Sun JVM handles virtual memory,
-memory mapped buffers, and garbage collection of the memory mapped buffers
-- Handling operational aspect of the data integration, scoring engine processing, and delivering to the client
-facing application.
-- Guide a developer on how to re-design a lookup service. Migrated from custom made hash format to
-memory mapped cdb files. Resulted in the improved performance, lower memory usage.
-- Designed and developed scheduling and dependency tracking framework. Migrated all data delivery and
-processing processes into the framework This increased visibility into the process flow, failures, and
-successes.
+Was brought into the company to spread the admiration for the simple processes. Helped developers to design programs following Unix philosophy – simple blocks when put together result in the complex architecture; don't over-engineer, take full advantage of the filesystem semantics – permissions, inodes, caching, etc.
+- Lead a team of developers responsible for the ETL processes. Enforced better handling of the ETL processes. The goal is to build a “self-healing”, idempotent system.
+- Coach people to respect machine resources. Java developers learned how Sun JVM handles virtual memory, memory mapped buffers, and garbage collection of the memory mapped buffers
+- Handling operational aspect of the data integration, scoring engine processing, and delivering to the client facing application.
+- Guide a developer on how to re-design a lookup service. Migrated from custom made hash format to memory mapped cdb files. Resulted in the improved performance, lower memory usage.
+- Designed and developed scheduling and dependency tracking framework. Migrated all data delivery and processing processes into the framework This increased visibility into the process flow, failures, and successes.
 - Trained people on proper SCM usage, migrated to git.
+
 
 Experian Cheetahmail
 Manager Of Technology at Experian Cheetahmail			  2005/11 - 2010/02
 
 Lead a team of developers with various technical skills. My team is responsible for
 architecture/development/installation of the mailer platform and Content Management System.
-Mailer platform, a core business component, consists of multiple parts: content compilation, content and user
-data distribution to satellite event hosts , mta, redirection, log collection, reporting integration (SLA <15
-min).
-- Enforced a peer code reviews. The code has to be reviewed at least by one other person in the team or
-myself before it is ready for merge into a release candidate.
-- Developed package management for the components installed outside of the regular release process. Event
-hosts (mta, redirect, image) are outside of the global firewall and require different/smaller codebase installed.
-Worked closely with systems team to ensure security and stability of the event hosts.
+Mailer platform, a core business component, consists of multiple parts: content compilation, content and user data distribution to satellite event hosts , mta, redirection, log collection, reporting integration (SLA <15 min).
+- Enforced a peer code reviews. The code has to be reviewed at least by one other person in the team or myself before it is ready for merge into a release candidate.
+- Developed package management for the components installed outside of the regular release process. Event hosts (mta, redirect, image) are outside of the global firewall and require different/smaller codebase installed. Worked closely with systems team to ensure security and stability of the event hosts.
 - Architect reliable, idempotent processes for data distribution, log collection, and reporting integration
-- External API framework. Reliable/Lightweight. To optimize authentication speed and minimize dependency
-on a central DB, authentication credentials are cached in the cdb format.
-- Took over the Message Bus implementation. Supervised the process of fixing existing codebase, code
-review the changes to ensure that application as a whole will remain stable. Designed a more stable MQ
-platform based on the RabbitMQ
-- Proposed use of a different revision control tool (git). Trained a team that was involved in a trial. At the end
-of the trial entire tech department converted to git which sped up patch acceptance/integration cycle.
-2 recommendations available upon request
+- External API framework. Reliable/Lightweight. To optimize authentication speed and minimize dependency on a central DB, authentication credentials are cached in the cdb format.
+- Took over the Message Bus implementation. Supervised the process of fixing existing codebase, code review the changes to ensure that application as a whole will remain stable. Designed a more stable MQ platform based on the RabbitMQ
+- Proposed use of a different revision control tool (git). Trained a team that was involved in a trial. At the end of the trial entire tech department converted to git which sped up patch acceptance/integration cycle.
 
 Software Engineer at CheetahMail, an Experian Company		  2004/06 - 2005/11
 
-- Improved benchmark reporting process. Designed new reporting UI that provides more configuration
-options.
-- Supported all aspects of client projects for a largest client at Cheetahmail. Worked with the client services
-and client tech team on the design specifications, implementation, and end-to-end testing.
+- Improved benchmark reporting process. Designed new reporting UI that provides more configuration options.
+- Supported all aspects of client projects for a largest client at Cheetahmail. Worked with the client services and client tech team on the design specifications, implementation, and end-to-end testing.
 
 
 InfoDataNY
 Software Engineer at InfoDataNY					  2003/05 - 2004/06
 
 Customized mail server: Server designed to catch all incoming and outgoing messages in order to comply
-with SEC and NSDA rules. Stand-by server comes up online in case of the primary server's failure. All
-email messages, including attachments, parsed and stored in the Oracle database and recorded onto CD on
-demand. Software used: Qmail, Courier IMAP, Perl, Oracle
-Independent Security Server (INdSS) is a biometric solution that authenticates users via various methods:
-fingerprint, iris, face recognition, and palm geometry. It acts as an identification gateway to any application
+with SEC and NSDA rules. Stand-by server comes up online in case of the primary server's failure. All email messages, including attachments, parsed and stored in the Oracle database and recorded onto CD on demand. Software used: Qmail, Courier IMAP, Perl, Oracle
+Independent Security Server (INdSS) is a biometric solution that authenticates users via various methods: fingerprint, iris, face recognition, and palm geometry. It acts as an identification gateway to any application
 capable of communication via HTTPS or HTTP protocols
 Designed/Developed new Java servlets and applets to work with new device(s), to add new functionality
 Developed client side dll (C++, winsock, OpenSSL) designed for integration with client server applications
@@ -84,42 +79,33 @@ Developed client side dll (C++, winsock, OpenSSL) designed for integration with 
 DataPeer
 Software Engineer at DataPeer					  2001/06 - 2003/05
 
-- Help Creating/supported custom designed mail system. System designed to support about 1 million
-accounts. Software is based on modified Sendmail, Courier IMAP/POP3, custom created quota library,
-internal DNS as a database of user information
-- Created mail parser/auto responder for Sales department. Creates socket connection to POP3 server, parses
-all emails send to specific address, send reply according to the information requested.
-- Sync|Backup software designed to synchronize/backup data of various devices. It supports synchronization
-between Windows, Windows CE, Linux, MAC, and Palm platforms. My responsibilities included:
+- Help Creating/supported custom designed mail system. System designed to support about 1 million accounts. Software is based on modified Sendmail, Courier IMAP/POP3, custom created quota library, internal DNS as a database of user information
+- Created mail parser/auto responder for Sales department. Creates socket connection to POP3 server, parses all emails send to specific address, send reply according to the information requested.
+- Sync|Backup software designed to synchronize/backup data of various devices. It supports synchronization between Windows, Windows CE, Linux, MAC, and Palm platforms. My responsibilities included:
 - Design requirements for new features; coordinate new requirements with marketing department.
 - Software analysis. Server and client programs written in C++
 Support all components of the application:
 - Server written in C++, runs on Windows 2000 server platform
 - Clients for every device (Win CE, Win 32, Linux, Palm). All clients written in C++.
 - Web part. Based on Apache web server with JavaServlets (Resin).
-- Administer CVS system for Linux agent development. Merge CVS with company's Visual Source Safe
-database.
+- Administer CVS system for Linux agent development. Merge CVS with company's Visual Source Safe database.
 - Administer Windows 2000 server, Linux OS, and Oracle DB
 - Scripts for provisioning shared Oracle service.
+
 
 Random House
 Programmer Analyst at Random House				  2000/04 - 2001/06
 
 Support editorial software for FODORS department
-- Maintain/Modify DBparser (written in Pro*C): DBparser parses tag separated file (XML like) into Oracle
-DB, emails users when file successfully parsed in (e-mail also includes errors encountered while processing),
-send e-mail to notify support team and users when programs fails (checks for SIGSEGV, SIGBUS, copies
-core to specified directory)
-- Change function from using arrays (fixed size) to dynamically growing (link lists), fixed memory
-corruptions/leaks with help of DMALLOC/Bounds Check (using gcc compiler 2.95.2), changed program’s
-functionality to accommodate new requirements
+- Maintain/Modify DBparser (written in Pro*C): DBparser parses tag separated file (XML like) into Oracle DB, emails users when file successfully parsed in (e-mail also includes errors encountered while processing), send e-mail to notify support team and users when programs fails (checks for SIGSEGV, SIGBUS, copies core to specified directory)
+- Change function from using arrays (fixed size) to dynamically growing (link lists), fixed memory corruptions/leaks with help of DMALLOC/Bounds Check (using gcc compiler 2.95.2), changed program’s functionality to accommodate new requirements
 - Debug Extract program written in C++, check for memory leaks, memory corruptions.
 - Made modifications to BookBuilder (C++) program
 - Tune Oracle procedures using TKPROF
 - Create/Debug/Enhance Oracle procedures and functions
-- Ad-hoc programs to search LONG field in Oracle DB. Programs are intended to modify part of text,
-compare “placeholders” to actual data in the DB tables
+- Ad-hoc programs to search LONG field in Oracle DB. Programs are intended to modify part of text, compare “placeholders” to actual data in the DB tables
 - Migration from Informix to Oracle: C, C++ programs; database procedures, functions, and triggers
+
 
 DMR Consulting
 Senior Programmer/Analyst at AT&T				  1998/02 - 2000/04
@@ -128,12 +114,9 @@ CARE Metrics System (CARE - Customer Account Record Exchange)
 - Create scripts/views using SQL for ad-hoc requests as well as for production
 - Create/Maintain/Analyze tables and indexes, setup load processes with SQL*Loader
 - Development of the reports using C++ with use of MFC database classes for DB data manipulation
-- Create/Modify Report generator system with archive feature using C/C++ programs, SQL, system
-commands, and InfoReports software
-- File Availability program, written in C, checks for file existence and completion while it has been
-transferring from another machine (MVS), submits several processes concurrently when file is ready
-- Modify CARE process program, written in C++, calculates timeliness between several date fields, creates
-variable length records for load into Oracle database
+- Create/Modify Report generator system with archive feature using C/C++ programs, SQL, system commands, and InfoReports software
+- File Availability program, written in C, checks for file existence and completion while it has been transferring from another machine (MVS), submits several processes concurrently when file is ready
+- Modify CARE process program, written in C++, calculates timeliness between several date fields, creates variable length records for load into Oracle database
 
 Programmer/Analyst at DMR Consulting				  1997/02 - 1998/01
 
@@ -151,24 +134,5 @@ Computer Science, 1997 - 1999
 The Chubb Institute of Technology
 Computer Programming, 1996 - 1997
 
-Санкт-Петербургский Государственный Политехнический Университет
+St.Peterburg State Polytechnic University, Russia
 Engineering. Machine building, 1994 – 1995
-
-
-Skills & Expertise
-
-Djbdns
-Linux
-C
-High Availability
-Qmail
-Architecture
-Perl
-Python
-Scalability
-Git
-DNS
-Web Development
-System Architecture
-Storage
-Troubleshooting
