@@ -11,7 +11,7 @@ Linux/FreeBSD, filesystems, python, perl, shell, qmail, djbdns, Oracle/MySQL, C,
 Experience:
 
 Tablet., Inc. (www.tablethotels.com)
-Software Development Tech Lead at Tablet Inc			  2011/07 - Present
+Software Development Tech Lead 					  2011/08 - Present
 
 - Overall system design. Pushed for share nothing architecture.
 - API (OAuth, SOAP). Partner integration
@@ -21,13 +21,14 @@ Software Development Tech Lead at Tablet Inc			  2011/07 - Present
 - Research caching solution for the availability search service
 - RESTful API with JSON as a response payload
 - changing monolithic application into SOA 
-- release (ansible) and on-call duties
+- release management (ansible) and on-call duties
 - help with devops tasks. Review system changes
 
 Tablet., Inc. (www.tablethotels.com)
-Software Infrastructure Engineer at Tablet Inc			  2010/12 - 2011/08
+Software Infrastructure Engineer				  2010/12 - 2011/08
 
-- Unleashed the python web application from the threading hell (GIL).
+- Unleashed the python web application from the threading hell (GIL)
+  by wrapping it in an accept() loop with a spawn-fcgi setting up listen() and handling process management
 - Cleaned up the spawn-fcgi (https://github.com/alexginzburg/spawn-fcgi) to actually managed spawned processes. 
 - Filesystem based queue for file distribution
 - Helped with the fork() implementation of the availability search service
@@ -35,19 +36,19 @@ Software Infrastructure Engineer at Tablet Inc			  2010/12 - 2011/08
 
 
 Proclivity Systems
-Software Infrastructure Team Lead at Proclivity Systems		  2010/02 - 2010/12
+Software Infrastructure Team Lead				  2010/02 - 2010/12
 
 Was brought into the company to spread the admiration for the simple processes. Helped developers to design programs following Unix philosophy – simple blocks when put together result in the complex architecture; don't over-engineer, take full advantage of the filesystem semantics – permissions, inodes, caching, etc.
 - Lead a team of developers responsible for the ETL processes. Enforced better handling of the ETL processes. The goal is to build a “self-healing”, idempotent system.
 - Coach people to respect machine resources. Java developers learned how Sun JVM handles virtual memory, memory mapped buffers, and garbage collection of the memory mapped buffers
 - Handling operational aspect of the data integration, scoring engine processing, and delivering to the client facing application.
-- Guide a developer on how to re-design a lookup service. Migrated from custom made hash format to memory mapped cdb files. Resulted in the improved performance, lower memory usage.
+- Guide a developer on how to re-design a lookup service. Migrated from custom made hashmap format to memory mapped cdb files. Resulted in the improved performance, lower memory usage.
 - Designed and developed scheduling and dependency tracking framework. Migrated all data delivery and processing processes into the framework This increased visibility into the process flow, failures, and successes.
 - Trained people on proper SCM usage, migrated to git.
 
 
 Experian Cheetahmail
-Manager Of Technology at Experian Cheetahmail			  2005/11 - 2010/02
+Manager Of Technology						  2005/11 - 2010/02
 
 Lead a team of developers with various technical skills. My team is responsible for
 architecture/development/installation of the mailer platform and Content Management System.
@@ -66,7 +67,7 @@ Software Engineer at CheetahMail, an Experian Company		  2004/06 - 2005/11
 
 
 InfoDataNY
-Software Engineer at InfoDataNY					  2003/05 - 2004/06
+Software Engineer						  2003/05 - 2004/06
 
 Customized mail server: Server designed to catch all incoming and outgoing messages in order to comply
 with SEC and NSDA rules. Stand-by server comes up online in case of the primary server's failure. All email messages, including attachments, parsed and stored in the Oracle database and recorded onto CD on demand. Software used: Qmail, Courier IMAP, Perl, Oracle
@@ -77,7 +78,7 @@ Developed client side dll (C++, winsock, OpenSSL) designed for integration with 
 
 
 DataPeer
-Software Engineer at DataPeer					  2001/06 - 2003/05
+Software Engineer						  2001/06 - 2003/05
 
 - Help Creating/supported custom designed mail system. System designed to support about 1 million accounts. Software is based on modified Sendmail, Courier IMAP/POP3, custom created quota library, internal DNS as a database of user information
 - Created mail parser/auto responder for Sales department. Creates socket connection to POP3 server, parses all emails send to specific address, send reply according to the information requested.
@@ -94,7 +95,7 @@ Support all components of the application:
 
 
 Random House
-Programmer Analyst at Random House				  2000/04 - 2001/06
+Programmer Analyst						  2000/04 - 2001/06
 
 Support editorial software for FODORS department
 - Maintain/Modify DBparser (written in Pro*C): DBparser parses tag separated file (XML like) into Oracle DB, emails users when file successfully parsed in (e-mail also includes errors encountered while processing), send e-mail to notify support team and users when programs fails (checks for SIGSEGV, SIGBUS, copies core to specified directory)
@@ -134,5 +135,5 @@ Computer Science, 1997 - 1999
 The Chubb Institute of Technology
 Computer Programming, 1996 - 1997
 
-St.Peterburg State Polytechnic University, Russia
+St.Petersburg State Polytechnic University, Russia
 Engineering. Machine building, 1994 – 1995
